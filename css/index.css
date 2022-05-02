@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* CSS Variable */
+
+:root {
+    --primary: rgb(255, 255, 255);
+    --dark: #333;
+    --light: rgb(255, 255, 255);
+    --shadow: 0 1px 5px rgba(104, 104 , 104, 0.8);
+}
+
+.wrapper{
+    display: grid;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    stroke: #333;
+    font-size: large;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--dark);
+    background: url(wallp3.jpg)   
+}
+
+
+
+.main-nav ul {
+       display: grid;
+       gap: 20px;
+       padding: 0;
+       list-style: none;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-nav a {
+    background: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+}
+
+.bball {
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.main-nav a:hover {
+    background:linear-gradient(rgb(218, 168, 111), rgb(201, 107, 177),rgb(115, 109, 190));
+    color: var(--light);
+}
+
+.first{
+    background:linear-gradient(rgb(255, 0, 0), rgb(228, 54, 11), rgb(196, 199, 10));
+    border-radius: 0px 25px 0px 25px;
+    top: 820px;
+    left: 335px;
+    width: 320px;
+    height: 250px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+}
+
+.second {
+    background:linear-gradient(rgb(104, 93, 93), rgb(17, 17, 17));
+    border-radius: 0px 25px 0px 25px;
+    top: 820px;
+    left: 335px;
+    width: 320px;
+    height: 250px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+}
+
+
+
+.third {
+    background:linear-gradient(rgb(17, 72, 145), rgb(55, 145, 172), rgb(136, 214, 219));
+    border-radius: 0px 25px 0px 25px;
+    top: 820px;
+    left: 335px;
+    width: 320px;
+    height: 250px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+}
+
+
+.first {
+    float: left;
+}
+
+.second {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third {
+    float: right;
+}
+ 
+.poop {
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+    height: 498px;
+
+}
+
+.vid {
+    float: left;
+
+}
+
+.store1 {
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+}
+
+.store2 {
+    float:right;
+}
+
+.yoza {
+    background: linear-gradient(rgb(207, 114, 192), rgb(163, 95, 165), rgb(105, 25, 116));
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+}
+
+.czz {
+    background: linear-gradient(rgb(115, 160, 197), rgb(65, 80, 168), rgb(33, 31, 141));
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+}
+
+.shopmain1 {
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(3, 5, 3);
+    background:linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+
+}
+
+.nbapic1 {
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(3, 5, 3);
+    height: 700px;
+}
+
+.banner {
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(3, 5, 3);
+    height: 200px;
+}
+
+.maori {
+    background: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+    width: 100px;
+    height: 15px;
+
+}
+
+.maori:hover {
+    background:linear-gradient(rgb(218, 168, 111), rgb(201, 107, 177),rgb(115, 109, 190));
+    color: var(--light);
+}
+
+.english {
+    background: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(0, 0, 0);
+    width: 100px;
+    height: 15px;
+}
+
+.english:hover {
+    background:linear-gradient(rgb(218, 168, 111), rgb(201, 107, 177),rgb(115, 109, 190));
+    color: var(--light);
+
+}
+
+.pic2 {
+    float: right;
+    margin-right: 50px;
+}
+
+.pic1 {
+    float: left;
+    margin-left: 50px;
+}
+
+.shop1 {
+    float: right;
+}
+
+.shop2{ 
+    margin-left: 500px;
+
+}
